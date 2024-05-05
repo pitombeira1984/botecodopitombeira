@@ -18,15 +18,25 @@ body{
     display: flex;
     gap: 1rem;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.container{
+    color: #fff;
+}
 .col{
     background-color: rgb(206, 155, 88);
 }
 .col img{
-    width: 50%;
+    width: 25%;
     mix-blend-mode: multiply;
 }
 .col p{
-    text-align: justify;
+    text-align: center;
+}
+.form{
+    border-top: 3px solid #000;
 }
 footer{
     text-align: center;
