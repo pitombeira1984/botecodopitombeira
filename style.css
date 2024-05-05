@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(body.jpg);
+}
+.navbar{
+    background-image: url(header.jpg);
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.row{
+    display: flex;
+    gap: 1rem;
+}
+.col{
+    background-color: rgb(206, 155, 88);
+}
+.col img{
+    width: 50%;
+    mix-blend-mode: multiply;
+}
+.col p{
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    background-image: url(header.jpg);
+    color: #fff;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
